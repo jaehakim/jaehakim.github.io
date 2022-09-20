@@ -1,13 +1,11 @@
 # Site Settings
-name: SAPPT
+name: 샤프트리서치
 title: 샤프트리서치
 description: 샤프트리서치 | 지속가능한 농업과 식물보호기술
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - 샤프트리서치
+  - 농업
+  - 식물보호기술
 show_hero: true
 menu:
   - title: 홈
@@ -61,7 +59,7 @@ collections:
     output: true
 paginate_path: "/page/:num/"
 show_get_theme_btn: false #true #메인화면 우측상단의 theme 다운로드 버튼 
-use_logo: false
+use_logo: true
 
 # Content paginator
 paginate_content:
