@@ -1,37 +1,37 @@
 # Site Settings
 name: sappt
-title: 샤프트리서치
-description: 샤프트리서치 | 지속가능한 농업과 식물보호기술
+title: 샤프트리서치 | 지속가능한 농업과 식물보호기술
+description: 기후변화로 한층 복잡해진 병해충 발생양상과 작물보호제 사용에 따른 안전성 문제를 해결하기 위해 데이터 분석 기술과 접목된 전문적인 식물보호 기술 개발로 안전하고 신뢰있는 농산물 생산에 기여
 tags:
   - 샤프트리서치
   - 농업
   - 식물보호기술
 show_hero: true
 menu:
-  - title: 홈
+  - title: Home
     url: /
   - title: About
     url: /about
   - title: Contact
     url: /contact
-#  - title: Feed
-#    url: /feed.xml
+  - title: Feed
+    url: /feed.xml
 email: youremail@test.com
 # See: https://disqus.com/
-#disqus_username: disqus_username
+disqus_username: disqus_username
 # Contact Form Setting
 # See: https://formspree.io/
-#formspree_form_id: formspree_form_id
+formspree_form_id: formspree_form_id
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-#github_username: github_username
-#facebook_username: facebook_username
-#twitter_username: twitter_username
-#instagram_username: instagram_username
-#linkedin_username: linkedin_username
-#medium_username: medium_username
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
 
 
 # Posts Settings
@@ -58,8 +58,8 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: false #true #메인화면 우측상단의 theme 다운로드 버튼 
-use_logo: true
+show_get_theme_btn: false
+use_logo: false
 
 # Content paginator
 paginate_content:
@@ -101,5 +101,5 @@ exclude: [
   'README.md'
 ]
 
-# Theme v3.1.1
-version: ""
+# Theme
+version: "" #v3.1.2
